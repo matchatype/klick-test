@@ -1,0 +1,16 @@
+{
+  "name": "klick-test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "keywords": [],
+  "author": "Andrea Di Marco <andrea.dimarco@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "1.12.5",
+    "prettier": "2.4.1"
+  }
+}
