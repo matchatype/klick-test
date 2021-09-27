@@ -23,6 +23,60 @@ body {
   color: var(--text-color);
 }
 
+.toolbar {
+  background: var(--text-color);
+  padding: 0 1rem;
+}
+
+.toolbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0.4rem 0;
+}
+
+.toolbar .logo {
+  width: 43px;
+  padding: 23px 0 0 0;
+  height: 0;
+  background-image: url("../media/gtd_logo.png");
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.toolbar .form-wrapper {
+  position: relative;
+  display: flex;
+  min-width: 10rem;
+  height: 100%;
+  padding: 0.2rem 0;
+}
+
+.toolbar .search-icon {
+  position: absolute;
+  top: 0.4rem;
+  left: 3.6rem;
+  width: 14px;
+}
+
+.toolbar .search-box {
+  border: 1px solid #1e1d1d;
+  background: #1e1d1d;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  height: 1.6rem;
+  width: 100%;
+  padding: 2px 23px 2px 30px;
+  outline: 0;
+}
+
+.toolbar .search-box::placeholder {
+  color: #b8b8b8;
+  opacity: 1;
+}
+
 .hero {
   display: flex;
   height: 12rem;
@@ -42,7 +96,7 @@ body {
   z-index: 0;
 }
 
-.hero > h1 {
+.hero > h2 {
   font-size: 2.4rem;
   position: relative;
   z-index: 1;
@@ -106,6 +160,10 @@ body {
   margin: 2rem auto 0;
 }
 
+.member .details {
+  min-width: 100%;
+}
+
 .member .details h4 {
   color: var(--primary-color);
   font-size: 1rem;
@@ -114,7 +172,6 @@ body {
 
 .member .details p {
   font-size: 0.8rem;
-  min-width: 100%;
   margin: 0;
 }
 
@@ -184,7 +241,7 @@ body {
     height: 24rem;
   }
 
-  .hero > h1 {
+  .hero > h2 {
     font-size: 4rem;
   }
 
