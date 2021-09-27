@@ -7,67 +7,76 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <section class="toolbar">
-      <div class="container">
-        <h1 class="logo">GTD</h1>
-        <form class="form-wrapper">
-          <img
-            class="search-icon"
-            src="./media/ic_search.png"
-            alt="search icon"
-          />
-          <label for="search-box">Search</label>
-          <input
-            class="search-box"
-            id="search-box"
-            placeholder="Search"
-            type="text"
-          />
-        </form>
-      </div>
-    </section>
-    <header class="hero">
-      <h2 class="heading">Hello, we’re gtd.</h2>
+    <header>
+      <section class="toolbar">
+        <div class="container">
+          <h1 class="logo">GTD</h1>
+          <form class="form-wrapper">
+            <img
+              class="search-icon"
+              src="./media/ic_search.png"
+              alt="search icon"
+            />
+            <label for="search-box" class="search-label">Search</label>
+            <input
+              tabindex="0"
+              class="search-box"
+              id="search-box"
+              placeholder="Search"
+              type="text"
+            />
+          </form>
+        </div>
+      </section>
+      <section class="hero">
+        <h2 class="heading">Hello, we’re gtd.</h2>
+      </section>
     </header>
     <main class="main">
-      <section class="team">
-        <img src="./media/img_lisa.jpg" alt="Lisa" class="member-picture" />
-        <img src="./media/img_danielle.jpg" alt="Lisa" class="member-picture" />
-        <img src="./media/img_brian.jpg" alt="Lisa" class="member-picture" />
-      </section>
-      <section class="content">
-        <h2>How it started</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris n isi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in c
-          ulpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </section>
-      <section class="contact">
-        <div class="member">
+      <div class="container">
+        <section class="team">
           <img src="./media/img_lisa.jpg" alt="Lisa" class="member-picture" />
-          <div class="details">
-            <h4>Lisa</h4>
-            <p>lisa@gtd.co</p>
-          </div>
-        </div>
-        <div class="member">
           <img
             src="./media/img_danielle.jpg"
-            alt="Danielle"
+            alt="Lisa"
             class="member-picture"
           />
-          <div class="details">
-            <h4>Danielle</h4>
-            <p>danielle@gtd.co</p>
-            <p>(123) 456-7890</p>
+          <img src="./media/img_brian.jpg" alt="Lisa" class="member-picture" />
+        </section>
+        <section class="content">
+          <h2>How it started</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris n isi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in c
+            ulpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </section>
+        <section class="contact">
+          <div class="member">
+            <img src="./media/img_lisa.jpg" alt="Lisa" class="member-picture" />
+            <div class="details">
+              <h4>Lisa</h4>
+              <p>lisa@gtd.co</p>
+            </div>
           </div>
-        </div>
-      </section>
+          <div class="member">
+            <img
+              src="./media/img_danielle.jpg"
+              alt="Danielle"
+              class="member-picture"
+            />
+            <div class="details">
+              <h4>Danielle</h4>
+              <p>danielle@gtd.co</p>
+              <p>(123) 456-7890</p>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
     <footer class="footer">
       <div class="container">
